@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "instagram_clone_flutter"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "instagram_clone_flutter-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
